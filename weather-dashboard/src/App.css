@@ -1,0 +1,281 @@
+
+
+
+/* 
+
+.weather-display {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: white;
+}
+.sunny {
+  background: linear-gradient(to top, #fceabb, #f8b500);
+}
+.cloudy {
+  background: linear-gradient(to top, #d7d2cc, #304352);
+}
+.rainy {
+  background: linear-gradient(to top, #cfd9df, #e2ebf0);
+} */
+
+
+
+
+
+/* App.css */
+/* 
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to top, #1e3c72, #2a5298);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4fc3f7;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0288d1;
+}
+
+.weather-display {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-history {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.search-history ul {
+  padding: 0;
+  list-style: none;
+}
+
+.search-history li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #ddd;
+} */
+
+
+
+
+/* 
+
+/* Full screen gradient background */
+/* 
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* Centered glass panel */
+/* .app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Search form styling */
+/* .search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+button {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4fc3f7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+} */
+
+/* Weather display */
+/* .weather-display {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}  */ 
+
+
+
+
+/* body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.app.default {
+  background-image: url("https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1920&q=80");
+}
+.app.sunny {
+  background-image: url("https://images.unsplash.com/photo-1599058902498-201cbbd7cf67?auto=format&fit=crop&w=1920&q=80");
+}
+.app.cloudy {
+  background-image: url("https://images.unsplash.com/photo-1505483531331-9462c44c6c8b?auto=format&fit=crop&w=1920&q=80");
+}
+.app.rainy {
+  background-image: url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1920&q=80");
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+input::placeholder {
+  color: #eee;
+}
+
+button {
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #4fc3f7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather-display {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.temp {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+ */
